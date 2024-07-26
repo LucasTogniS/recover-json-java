@@ -8,6 +8,7 @@ import java.net.URL;
 
 public class Main {
     private static final String urlJson = "https://viacep.com.br/ws/01001000/json/";
+    
     public static void main(String[] args) {
         try {
             String res = getResponse(urlJson);
